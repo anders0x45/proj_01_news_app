@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
-import 'package:proj_1_news/features/daily_news/domain/entities/article.dart';
+import '../../../../domain/entities/article.dart';
 
 abstract class RemoteArticleState extends Equatable {
   final List<AritcleEntity>? articles;
