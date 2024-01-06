@@ -8,7 +8,7 @@ import '../../bloc/article/remote/remote_article_bloc.dart';
 import '../../widgets/articles_tile.dart';
 
 class DailyNews extends StatelessWidget {
-  const DailyNews({Key? key}) : super(key: key);
+  const DailyNews({super.key});
 
   @override
   Widget build(BuildContext context) {
