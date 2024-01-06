@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../domain/entities/article.dart';
-import 'package:flutter/material.dart';
 
 class ArticleWidget extends StatelessWidget {
   final AritcleEntity? article;

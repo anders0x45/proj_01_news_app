@@ -1,6 +1,6 @@
 import 'package:floor/floor.dart';
-import 'package:proj_1_news/features/daily_news/data/data_sources/local/DAO/article_dao.dart';
-import 'package:proj_1_news/features/daily_news/data/models/article.dart';
+import 'DAO/article_dao.dart';
+import '../../models/article.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 import 'dart:async';
 part 'app_database.g.dart';

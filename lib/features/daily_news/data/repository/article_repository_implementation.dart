@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:proj_1_news/features/daily_news/data/data_sources/local/app_database.dart';
-import 'package:proj_1_news/features/daily_news/domain/entities/article.dart';
+import '../data_sources/local/app_database.dart';
+import '../../domain/entities/article.dart';
 import '../../../../core/constants/strings.dart';
 import '../data_sources/remote/news_api_service.dart';
 

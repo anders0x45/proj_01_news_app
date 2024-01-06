@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:proj_1_news/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
-import 'package:proj_1_news/features/daily_news/presentation/bloc/article/remote/remote_article_event.dart';
+
 import 'config/theme/app_theme.dart';
-import 'features/daily_news/presentation/pages/home.dart';
+import 'features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
+import 'features/daily_news/presentation/bloc/article/remote/remote_article_event.dart';
+import 'features/daily_news/presentation/pages/home/home.dart';
 import 'injection_container.dart';
 
 void main() async {

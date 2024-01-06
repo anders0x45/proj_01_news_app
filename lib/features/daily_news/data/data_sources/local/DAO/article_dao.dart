@@ -1,5 +1,5 @@
 import 'package:floor/floor.dart';
-import 'package:proj_1_news/features/daily_news/data/models/article.dart';
+import '../../../models/article.dart';
 
 @dao
 abstract class ArticleDao {
