@@ -2,7 +2,7 @@ import 'package:floor/floor.dart';
 
 import '../../domain/entities/article.dart';
 
-@Entity(tableName: 'article', primaryKeys: [''])
+@Entity(tableName: 'article', primaryKeys: ['id'])
 class ArticleModel extends AritcleEntity {
   const ArticleModel(
       {int? id,
@@ -24,5 +24,17 @@ class ArticleModel extends AritcleEntity {
       publishedAt: map['publishedAt'] ?? '',
       content: map['content'] ?? '',
     );
+  }
+
+  factory ArticleModel.fromEntity(AritcleEntity entity) {
+    return ArticleModel(
+        id: entity.id,
+        author: entity.author,
+        title: entity.title,
+        description: entity.description,
+        url: entity.url,
+        urlToImage: entity.urlToImage,
+        publishedAt: entity.publishedAt,
+        content: entity.content);
   }
 }
